@@ -1,0 +1,28 @@
+/* Make the body and html fill the screen */
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* Make the root div and your app container stretch full width and height */
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app {
+  width: 100%;
+  min-height: 100vh; /* Full height of the viewport */
+  background-image: url('https://images.pexels.com/photos/1037992/pexels-photo-1037992.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: sans-serif;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
